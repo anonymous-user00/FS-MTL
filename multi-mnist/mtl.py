@@ -70,6 +70,8 @@ def CAGrad(grads, alpha=0.5, rescale=1):
     else:
         return g / (1 + alpha)
 
+def EW(grads_list):
+    return sum(grads_list)
 
 def IMTL(grads_list):
     grads = {}
@@ -121,3 +123,99 @@ def IMTL(grads_list):
         (torch.tensor(1 - alpha_.sum(), device=norm_term.device).unsqueeze(-1), alpha_)
     )
     return sum([alpha[i] * grads[i] for i in range(len(grads_list))])
+
+
+
+def RLW(grads_list: List[torch.Tensor]) -> torch.Tensor:
+    """
+    RLW: sample a random simplex via softmax(randn); weight grads.
+    """
+    n = len(grads_list)
+    w = torch.softmax(torch.randn(n, device=grads_list[0].device), dim=0)
+    return sum(w[i] * grads_list[i] for i in range(n))
+
+def SI(
+    losses: List[torch.Tensor],
+    grads_list: List[torch.Tensor],
+    weights = None,
+) -> torch.Tensor:
+    """
+    L = sum_i w_i * log(loss_i)
+    ⇒ ∇ = sum_i w_i * (1/loss_i) * g_i
+    losses and grads_list must align in order.
+    """
+    n = len(losses)
+    if weights is None:
+        weights = torch.ones(n, device=losses[0].device) / n
+    agg = 0.0
+    for w, l, g in zip(weights, losses, grads_list):
+        agg = agg + w * g / (l.detach() + 1e-12)
+    return agg
+logsigma = None
+
+def UW(
+    grads_list: List[torch.Tensor],
+    losses: List[torch.Tensor],
+    logsigma: torch.Tensor,
+) -> torch.Tensor:
+    """
+    Impart “uncertainty” weights:
+      L = sum_i 0.5*(exp(-logsigma_i)*loss_i + logsigma_i)
+    ⇒ ∇_θ L = sum_i 0.5*exp(-logsigma_i)*∇_θ loss_i
+
+    :param grads_list: list of per-task gradients (same shape)
+    :param losses:     list of per-task losses
+    :param logsigma:   1D tensor of size n_tasks (learnable)
+    :return:           aggregated gradient tensor
+    """
+    # weight each grad by 0.5 * exp(-logsigma_i)
+    weights = 0.5 * torch.exp(-logsigma)
+    agg = sum(w * g for w, g in zip(weights, grads_list))
+    return agg
+
+
+def DWA(
+    grads_list: List[torch.Tensor],
+    losses: List[torch.Tensor],
+    costs: np.ndarray,
+    iteration: int,
+    iteration_window: int = 25,
+    temp: float = 2.0,
+) -> Tuple[torch.Tensor, np.ndarray]:
+    """
+    Dynamic Weight Averaging:
+      maintain a FIFO buffer `costs` of shape (2*window, n_tasks),
+      on each call push current losses, pop oldest;
+      after window steps compute:
+        ws = mean(latest window costs) / mean(previous window costs)
+        w = softmax(ws/temp)
+      and use those as weights over grads.
+
+    :param grads_list:      list of per-task gradients
+    :param losses:          list of per-task losses (torch.Tensor scalars)
+    :param costs:           np.ndarray[2*window, n_tasks] of past loss values
+    :param iteration:       current iteration count (0-based)
+    :param iteration_window: how many iters form each half of the buffer
+    :param temp:            temperature
+    :returns:               (aggregated gradient, updated costs buffer)
+    """
+    n_tasks = len(grads_list)
+    # 1) append newest losses to costs buffer (drop oldest)
+    new_row = np.array([l.detach().cpu().item() for l in losses], dtype=np.float32)
+    costs = np.concatenate([costs[1:], new_row[None, :]], axis=0)
+
+    # 2) compute DWA weights once we've filled one window
+    if iteration >= iteration_window:
+        first_half = costs[:iteration_window].mean(axis=0)
+        second_half = costs[iteration_window:].mean(axis=0)
+        ws = second_half / (first_half + 1e-12)
+        raw = np.exp(ws / temp)
+        w_norm = raw / raw.sum()
+    else:
+        # until then, just uniform
+        w_norm = np.ones(n_tasks, dtype=np.float32) / n_tasks
+
+    # 3) aggregate grads
+    agg = sum(w_norm[i] * grads_list[i] for i in range(n_tasks))
+
+    return agg, costs

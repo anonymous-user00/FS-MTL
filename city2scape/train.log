@@ -1,5 +1,5 @@
 14:03:16 :: INFO     
-Output directory:outputs/moo-sam/data_path=PosixPath/vast/hvp2011/data/cityscape/n_epochs=200/batch_size=8/lr=0.0001/seed=0/model=mtan/method=ew/adaptive=False/rho=0.001/apply_augmentation=True/c=0.4
+Output directory:outputs/moo-sam/data_path=PosixPath/data/cityscape/n_epochs=200/batch_size=8/lr=0.0001/seed=0/model=mtan/method=ew/adaptive=False/rho=0.001/apply_augmentation=True/c=0.4
 14:03:17 :: INFO     
 Applying data augmentation on NYUv2.
 14:03:39 :: INFO     

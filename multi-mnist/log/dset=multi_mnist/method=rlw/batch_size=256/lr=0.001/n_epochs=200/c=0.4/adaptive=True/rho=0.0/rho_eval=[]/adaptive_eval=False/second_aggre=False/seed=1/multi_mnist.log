@@ -1,0 +1,854 @@
+18:35:28 :: INFO     
+==>>> total trainning batch number: 469
+18:35:28 :: INFO     
+==>>> total testing batch number: 79
+18:35:29 :: INFO     
+total param amount: 11223560
+18:35:29 :: INFO     
+Epoch [0/200]
+18:36:34 :: INFO     
+Accuracy task 1: 0.86655, Accuracy task 2: 0.8706
+18:36:34 :: INFO     
+Score improved from 0 to 0.8685750000000001. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+18:36:34 :: INFO     
+Epoch [1/200]
+18:37:39 :: INFO     
+Accuracy task 1: 0.9189, Accuracy task 2: 0.89735
+18:37:39 :: INFO     
+Score improved from 0.8685750000000001 to 0.9081250000000001. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+18:37:39 :: INFO     
+Epoch [2/200]
+18:38:43 :: INFO     
+Accuracy task 1: 0.92335, Accuracy task 2: 0.89945
+18:38:43 :: INFO     
+Score improved from 0.9081250000000001 to 0.9114. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+18:38:43 :: INFO     
+Epoch [3/200]
+18:39:48 :: INFO     
+Accuracy task 1: 0.93245, Accuracy task 2: 0.91135
+18:39:48 :: INFO     
+Score improved from 0.9114 to 0.9218999999999999. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+18:39:48 :: INFO     
+Epoch [4/200]
+18:40:52 :: INFO     
+Accuracy task 1: 0.9251, Accuracy task 2: 0.91515
+18:40:52 :: INFO     
+Epoch [5/200]
+18:41:57 :: INFO     
+Accuracy task 1: 0.91855, Accuracy task 2: 0.91905
+18:41:57 :: INFO     
+Epoch [6/200]
+18:43:01 :: INFO     
+Accuracy task 1: 0.91695, Accuracy task 2: 0.92215
+18:43:01 :: INFO     
+Epoch [7/200]
+18:44:06 :: INFO     
+Accuracy task 1: 0.9428, Accuracy task 2: 0.92755
+18:44:06 :: INFO     
+Score improved from 0.9218999999999999 to 0.935175. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+18:44:06 :: INFO     
+Epoch [8/200]
+18:45:10 :: INFO     
+Accuracy task 1: 0.9356, Accuracy task 2: 0.93095
+18:45:10 :: INFO     
+Epoch [9/200]
+18:46:15 :: INFO     
+Accuracy task 1: 0.93565, Accuracy task 2: 0.92625
+18:46:15 :: INFO     
+Epoch [10/200]
+18:47:19 :: INFO     
+Accuracy task 1: 0.94035, Accuracy task 2: 0.933
+18:47:19 :: INFO     
+Score improved from 0.935175 to 0.936675. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+18:47:19 :: INFO     
+Epoch [11/200]
+18:48:24 :: INFO     
+Accuracy task 1: 0.9413, Accuracy task 2: 0.93085
+18:48:24 :: INFO     
+Epoch [12/200]
+18:49:28 :: INFO     
+Accuracy task 1: 0.93765, Accuracy task 2: 0.92375
+18:49:28 :: INFO     
+Epoch [13/200]
+18:50:33 :: INFO     
+Accuracy task 1: 0.94555, Accuracy task 2: 0.9327
+18:50:33 :: INFO     
+Score improved from 0.936675 to 0.939125. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+18:50:33 :: INFO     
+Epoch [14/200]
+18:51:37 :: INFO     
+Accuracy task 1: 0.9412, Accuracy task 2: 0.9293
+18:51:37 :: INFO     
+Epoch [15/200]
+18:52:42 :: INFO     
+Accuracy task 1: 0.9471, Accuracy task 2: 0.93255
+18:52:42 :: INFO     
+Score improved from 0.939125 to 0.939825. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+18:52:42 :: INFO     
+Epoch [16/200]
+18:53:46 :: INFO     
+Accuracy task 1: 0.9462, Accuracy task 2: 0.92685
+18:53:46 :: INFO     
+Epoch [17/200]
+18:54:51 :: INFO     
+Accuracy task 1: 0.94005, Accuracy task 2: 0.9369
+18:54:51 :: INFO     
+Epoch [18/200]
+18:55:55 :: INFO     
+Accuracy task 1: 0.94555, Accuracy task 2: 0.92855
+18:55:55 :: INFO     
+Epoch [19/200]
+18:57:00 :: INFO     
+Accuracy task 1: 0.94965, Accuracy task 2: 0.9328
+18:57:00 :: INFO     
+Score improved from 0.939825 to 0.941225. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+18:57:00 :: INFO     
+Epoch [20/200]
+18:58:04 :: INFO     
+Accuracy task 1: 0.94, Accuracy task 2: 0.93815
+18:58:04 :: INFO     
+Epoch [21/200]
+18:59:09 :: INFO     
+Accuracy task 1: 0.94465, Accuracy task 2: 0.9322
+18:59:09 :: INFO     
+Epoch [22/200]
+19:00:13 :: INFO     
+Accuracy task 1: 0.94645, Accuracy task 2: 0.92845
+19:00:13 :: INFO     
+Epoch [23/200]
+19:01:18 :: INFO     
+Accuracy task 1: 0.9476, Accuracy task 2: 0.93695
+19:01:18 :: INFO     
+Score improved from 0.941225 to 0.942275. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+19:01:18 :: INFO     
+Epoch [24/200]
+19:02:22 :: INFO     
+Accuracy task 1: 0.94555, Accuracy task 2: 0.93265
+19:02:22 :: INFO     
+Epoch [25/200]
+19:03:27 :: INFO     
+Accuracy task 1: 0.9409, Accuracy task 2: 0.93265
+19:03:27 :: INFO     
+Epoch [26/200]
+19:04:31 :: INFO     
+Accuracy task 1: 0.94795, Accuracy task 2: 0.9359
+19:04:31 :: INFO     
+Epoch [27/200]
+19:05:36 :: INFO     
+Accuracy task 1: 0.9423, Accuracy task 2: 0.93385
+19:05:36 :: INFO     
+Epoch [28/200]
+19:06:40 :: INFO     
+Accuracy task 1: 0.9451, Accuracy task 2: 0.93535
+19:06:40 :: INFO     
+Epoch [29/200]
+19:07:44 :: INFO     
+Accuracy task 1: 0.948, Accuracy task 2: 0.9384
+19:07:44 :: INFO     
+Score improved from 0.942275 to 0.9432. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+19:07:45 :: INFO     
+Epoch [30/200]
+19:08:49 :: INFO     
+Accuracy task 1: 0.94225, Accuracy task 2: 0.9351
+19:08:49 :: INFO     
+Epoch [31/200]
+19:09:53 :: INFO     
+Accuracy task 1: 0.9486, Accuracy task 2: 0.9339
+19:09:53 :: INFO     
+Epoch [32/200]
+19:10:58 :: INFO     
+Accuracy task 1: 0.9505, Accuracy task 2: 0.9367
+19:10:58 :: INFO     
+Score improved from 0.9432 to 0.9436. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+19:10:58 :: INFO     
+Epoch [33/200]
+19:12:02 :: INFO     
+Accuracy task 1: 0.94475, Accuracy task 2: 0.93505
+19:12:02 :: INFO     
+Epoch [34/200]
+19:13:07 :: INFO     
+Accuracy task 1: 0.94875, Accuracy task 2: 0.9373
+19:13:07 :: INFO     
+Epoch [35/200]
+19:14:11 :: INFO     
+Accuracy task 1: 0.95045, Accuracy task 2: 0.92975
+19:14:11 :: INFO     
+Epoch [36/200]
+19:15:16 :: INFO     
+Accuracy task 1: 0.9472, Accuracy task 2: 0.9328
+19:15:16 :: INFO     
+Epoch [37/200]
+19:16:20 :: INFO     
+Accuracy task 1: 0.94725, Accuracy task 2: 0.93185
+19:16:20 :: INFO     
+Epoch [38/200]
+19:17:25 :: INFO     
+Accuracy task 1: 0.95175, Accuracy task 2: 0.93585
+19:17:25 :: INFO     
+Score improved from 0.9436 to 0.9438. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+19:17:25 :: INFO     
+Epoch [39/200]
+19:18:29 :: INFO     
+Accuracy task 1: 0.95055, Accuracy task 2: 0.93705
+19:18:29 :: INFO     
+Epoch [40/200]
+19:19:34 :: INFO     
+Accuracy task 1: 0.94635, Accuracy task 2: 0.93545
+19:19:34 :: INFO     
+Epoch [41/200]
+19:20:38 :: INFO     
+Accuracy task 1: 0.94725, Accuracy task 2: 0.93845
+19:20:38 :: INFO     
+Epoch [42/200]
+19:21:43 :: INFO     
+Accuracy task 1: 0.9481, Accuracy task 2: 0.93735
+19:21:43 :: INFO     
+Epoch [43/200]
+19:22:47 :: INFO     
+Accuracy task 1: 0.95005, Accuracy task 2: 0.93715
+19:22:47 :: INFO     
+Epoch [44/200]
+19:23:51 :: INFO     
+Accuracy task 1: 0.9526, Accuracy task 2: 0.9344
+19:23:51 :: INFO     
+Epoch [45/200]
+19:24:56 :: INFO     
+Accuracy task 1: 0.94795, Accuracy task 2: 0.93815
+19:24:56 :: INFO     
+Epoch [46/200]
+19:26:00 :: INFO     
+Accuracy task 1: 0.94925, Accuracy task 2: 0.9377
+19:26:00 :: INFO     
+Epoch [47/200]
+19:27:05 :: INFO     
+Accuracy task 1: 0.947, Accuracy task 2: 0.93195
+19:27:05 :: INFO     
+Epoch [48/200]
+19:28:09 :: INFO     
+Accuracy task 1: 0.9502, Accuracy task 2: 0.9348
+19:28:09 :: INFO     
+Epoch [49/200]
+19:29:14 :: INFO     
+Accuracy task 1: 0.9525, Accuracy task 2: 0.9395
+19:29:14 :: INFO     
+Score improved from 0.9438 to 0.946. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+19:29:14 :: INFO     
+Epoch [50/200]
+19:30:18 :: INFO     
+Accuracy task 1: 0.9475, Accuracy task 2: 0.93785
+19:30:18 :: INFO     
+Epoch [51/200]
+19:31:23 :: INFO     
+Accuracy task 1: 0.94885, Accuracy task 2: 0.9381
+19:31:23 :: INFO     
+Epoch [52/200]
+19:32:27 :: INFO     
+Accuracy task 1: 0.9463, Accuracy task 2: 0.936
+19:32:27 :: INFO     
+Epoch [53/200]
+19:33:32 :: INFO     
+Accuracy task 1: 0.9475, Accuracy task 2: 0.93545
+19:33:32 :: INFO     
+Epoch [54/200]
+19:34:36 :: INFO     
+Accuracy task 1: 0.9493, Accuracy task 2: 0.9388
+19:34:36 :: INFO     
+Epoch [55/200]
+19:35:41 :: INFO     
+Accuracy task 1: 0.95135, Accuracy task 2: 0.9411
+19:35:41 :: INFO     
+Score improved from 0.946 to 0.9462250000000001. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+19:35:41 :: INFO     
+Epoch [56/200]
+19:36:45 :: INFO     
+Accuracy task 1: 0.94685, Accuracy task 2: 0.9371
+19:36:45 :: INFO     
+Epoch [57/200]
+19:37:50 :: INFO     
+Accuracy task 1: 0.94845, Accuracy task 2: 0.93675
+19:37:50 :: INFO     
+Epoch [58/200]
+19:38:54 :: INFO     
+Accuracy task 1: 0.93765, Accuracy task 2: 0.93795
+19:38:54 :: INFO     
+Epoch [59/200]
+19:39:58 :: INFO     
+Accuracy task 1: 0.9506, Accuracy task 2: 0.93775
+19:39:58 :: INFO     
+Epoch [60/200]
+19:41:03 :: INFO     
+Accuracy task 1: 0.95375, Accuracy task 2: 0.9389
+19:41:03 :: INFO     
+Score improved from 0.9462250000000001 to 0.946325. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+19:41:03 :: INFO     
+Epoch [61/200]
+19:42:07 :: INFO     
+Accuracy task 1: 0.94965, Accuracy task 2: 0.9365
+19:42:07 :: INFO     
+Epoch [62/200]
+19:43:12 :: INFO     
+Accuracy task 1: 0.9458, Accuracy task 2: 0.9339
+19:43:12 :: INFO     
+Epoch [63/200]
+19:44:16 :: INFO     
+Accuracy task 1: 0.948, Accuracy task 2: 0.93515
+19:44:16 :: INFO     
+Epoch [64/200]
+19:45:21 :: INFO     
+Accuracy task 1: 0.94965, Accuracy task 2: 0.93755
+19:45:21 :: INFO     
+Epoch [65/200]
+19:46:25 :: INFO     
+Accuracy task 1: 0.9516, Accuracy task 2: 0.94
+19:46:25 :: INFO     
+Epoch [66/200]
+19:47:30 :: INFO     
+Accuracy task 1: 0.9483, Accuracy task 2: 0.93615
+19:47:30 :: INFO     
+Epoch [67/200]
+19:48:34 :: INFO     
+Accuracy task 1: 0.9493, Accuracy task 2: 0.9389
+19:48:34 :: INFO     
+Epoch [68/200]
+19:49:38 :: INFO     
+Accuracy task 1: 0.95095, Accuracy task 2: 0.93785
+19:49:38 :: INFO     
+Epoch [69/200]
+19:50:43 :: INFO     
+Accuracy task 1: 0.95105, Accuracy task 2: 0.9398
+19:50:43 :: INFO     
+Epoch [70/200]
+19:51:47 :: INFO     
+Accuracy task 1: 0.95025, Accuracy task 2: 0.9414
+19:51:47 :: INFO     
+Epoch [71/200]
+19:52:52 :: INFO     
+Accuracy task 1: 0.945, Accuracy task 2: 0.93695
+19:52:52 :: INFO     
+Epoch [72/200]
+19:53:56 :: INFO     
+Accuracy task 1: 0.9501, Accuracy task 2: 0.94025
+19:53:56 :: INFO     
+Epoch [73/200]
+19:55:01 :: INFO     
+Accuracy task 1: 0.95065, Accuracy task 2: 0.9397
+19:55:01 :: INFO     
+Epoch [74/200]
+19:56:05 :: INFO     
+Accuracy task 1: 0.95005, Accuracy task 2: 0.9401
+19:56:05 :: INFO     
+Epoch [75/200]
+19:57:10 :: INFO     
+Accuracy task 1: 0.95085, Accuracy task 2: 0.93935
+19:57:10 :: INFO     
+Epoch [76/200]
+19:58:14 :: INFO     
+Accuracy task 1: 0.9481, Accuracy task 2: 0.9373
+19:58:14 :: INFO     
+Epoch [77/200]
+19:59:19 :: INFO     
+Accuracy task 1: 0.95045, Accuracy task 2: 0.9396
+19:59:19 :: INFO     
+Epoch [78/200]
+20:00:23 :: INFO     
+Accuracy task 1: 0.94995, Accuracy task 2: 0.93305
+20:00:23 :: INFO     
+Epoch [79/200]
+20:01:27 :: INFO     
+Accuracy task 1: 0.9489, Accuracy task 2: 0.93795
+20:01:27 :: INFO     
+Epoch [80/200]
+20:02:32 :: INFO     
+Accuracy task 1: 0.9502, Accuracy task 2: 0.93775
+20:02:32 :: INFO     
+Epoch [81/200]
+20:03:36 :: INFO     
+Accuracy task 1: 0.9496, Accuracy task 2: 0.9385
+20:03:36 :: INFO     
+Epoch [82/200]
+20:04:41 :: INFO     
+Accuracy task 1: 0.9516, Accuracy task 2: 0.942
+20:04:41 :: INFO     
+Score improved from 0.946325 to 0.9468. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+20:04:41 :: INFO     
+Epoch [83/200]
+20:05:46 :: INFO     
+Accuracy task 1: 0.95175, Accuracy task 2: 0.94155
+20:05:46 :: INFO     
+Epoch [84/200]
+20:06:50 :: INFO     
+Accuracy task 1: 0.9504, Accuracy task 2: 0.93955
+20:06:50 :: INFO     
+Epoch [85/200]
+20:07:55 :: INFO     
+Accuracy task 1: 0.9524, Accuracy task 2: 0.93985
+20:07:55 :: INFO     
+Epoch [86/200]
+20:08:59 :: INFO     
+Accuracy task 1: 0.94885, Accuracy task 2: 0.93905
+20:08:59 :: INFO     
+Epoch [87/200]
+20:10:03 :: INFO     
+Accuracy task 1: 0.9502, Accuracy task 2: 0.9359
+20:10:03 :: INFO     
+Epoch [88/200]
+20:11:08 :: INFO     
+Accuracy task 1: 0.95185, Accuracy task 2: 0.94025
+20:11:08 :: INFO     
+Epoch [89/200]
+20:12:12 :: INFO     
+Accuracy task 1: 0.9517, Accuracy task 2: 0.9382
+20:12:12 :: INFO     
+Epoch [90/200]
+20:13:17 :: INFO     
+Accuracy task 1: 0.9497, Accuracy task 2: 0.94085
+20:13:17 :: INFO     
+Epoch [91/200]
+20:14:21 :: INFO     
+Accuracy task 1: 0.95365, Accuracy task 2: 0.93995
+20:14:21 :: INFO     
+Epoch [92/200]
+20:15:26 :: INFO     
+Accuracy task 1: 0.9489, Accuracy task 2: 0.9344
+20:15:26 :: INFO     
+Epoch [93/200]
+20:16:30 :: INFO     
+Accuracy task 1: 0.9521, Accuracy task 2: 0.9413
+20:16:30 :: INFO     
+Epoch [94/200]
+20:17:35 :: INFO     
+Accuracy task 1: 0.95155, Accuracy task 2: 0.93935
+20:17:35 :: INFO     
+Epoch [95/200]
+20:18:39 :: INFO     
+Accuracy task 1: 0.94925, Accuracy task 2: 0.9397
+20:18:39 :: INFO     
+Epoch [96/200]
+20:19:44 :: INFO     
+Accuracy task 1: 0.9519, Accuracy task 2: 0.94245
+20:19:44 :: INFO     
+Score improved from 0.9468 to 0.947175. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+20:19:44 :: INFO     
+Epoch [97/200]
+20:20:48 :: INFO     
+Accuracy task 1: 0.94815, Accuracy task 2: 0.93855
+20:20:48 :: INFO     
+Epoch [98/200]
+20:21:53 :: INFO     
+Accuracy task 1: 0.9498, Accuracy task 2: 0.9372
+20:21:53 :: INFO     
+Epoch [99/200]
+20:22:57 :: INFO     
+Accuracy task 1: 0.9507, Accuracy task 2: 0.94095
+20:22:57 :: INFO     
+Epoch [100/200]
+20:24:02 :: INFO     
+Accuracy task 1: 0.9519, Accuracy task 2: 0.94075
+20:24:02 :: INFO     
+Epoch [101/200]
+20:25:06 :: INFO     
+Accuracy task 1: 0.95215, Accuracy task 2: 0.9401
+20:25:06 :: INFO     
+Epoch [102/200]
+20:26:10 :: INFO     
+Accuracy task 1: 0.94965, Accuracy task 2: 0.93665
+20:26:10 :: INFO     
+Epoch [103/200]
+20:27:15 :: INFO     
+Accuracy task 1: 0.95105, Accuracy task 2: 0.9376
+20:27:15 :: INFO     
+Epoch [104/200]
+20:28:19 :: INFO     
+Accuracy task 1: 0.95015, Accuracy task 2: 0.94065
+20:28:19 :: INFO     
+Epoch [105/200]
+20:29:24 :: INFO     
+Accuracy task 1: 0.95055, Accuracy task 2: 0.93735
+20:29:24 :: INFO     
+Epoch [106/200]
+20:30:28 :: INFO     
+Accuracy task 1: 0.9524, Accuracy task 2: 0.942
+20:30:28 :: INFO     
+Score improved from 0.947175 to 0.9472. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+20:30:28 :: INFO     
+Epoch [107/200]
+20:31:33 :: INFO     
+Accuracy task 1: 0.9525, Accuracy task 2: 0.94185
+20:31:33 :: INFO     
+Epoch [108/200]
+20:32:37 :: INFO     
+Accuracy task 1: 0.94815, Accuracy task 2: 0.93665
+20:32:37 :: INFO     
+Epoch [109/200]
+20:33:42 :: INFO     
+Accuracy task 1: 0.95215, Accuracy task 2: 0.93845
+20:33:42 :: INFO     
+Epoch [110/200]
+20:34:46 :: INFO     
+Accuracy task 1: 0.9532, Accuracy task 2: 0.9403
+20:34:46 :: INFO     
+Epoch [111/200]
+20:35:51 :: INFO     
+Accuracy task 1: 0.94955, Accuracy task 2: 0.9408
+20:35:51 :: INFO     
+Epoch [112/200]
+20:36:55 :: INFO     
+Accuracy task 1: 0.9527, Accuracy task 2: 0.94225
+20:36:55 :: INFO     
+Score improved from 0.9472 to 0.9474750000000001. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+20:36:55 :: INFO     
+Epoch [113/200]
+20:37:59 :: INFO     
+Accuracy task 1: 0.9496, Accuracy task 2: 0.94
+20:37:59 :: INFO     
+Epoch [114/200]
+20:39:04 :: INFO     
+Accuracy task 1: 0.95035, Accuracy task 2: 0.9404
+20:39:04 :: INFO     
+Epoch [115/200]
+20:40:08 :: INFO     
+Accuracy task 1: 0.95235, Accuracy task 2: 0.93935
+20:40:08 :: INFO     
+Epoch [116/200]
+20:41:13 :: INFO     
+Accuracy task 1: 0.95005, Accuracy task 2: 0.9378
+20:41:13 :: INFO     
+Epoch [117/200]
+20:42:17 :: INFO     
+Accuracy task 1: 0.94875, Accuracy task 2: 0.9424
+20:42:17 :: INFO     
+Epoch [118/200]
+20:43:22 :: INFO     
+Accuracy task 1: 0.9525, Accuracy task 2: 0.9418
+20:43:22 :: INFO     
+Epoch [119/200]
+20:44:26 :: INFO     
+Accuracy task 1: 0.95195, Accuracy task 2: 0.94075
+20:44:26 :: INFO     
+Epoch [120/200]
+20:45:31 :: INFO     
+Accuracy task 1: 0.94955, Accuracy task 2: 0.939
+20:45:31 :: INFO     
+Epoch [121/200]
+20:46:35 :: INFO     
+Accuracy task 1: 0.95225, Accuracy task 2: 0.94065
+20:46:35 :: INFO     
+Epoch [122/200]
+20:47:40 :: INFO     
+Accuracy task 1: 0.9548, Accuracy task 2: 0.94115
+20:47:40 :: INFO     
+Score improved from 0.9474750000000001 to 0.947975. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+20:47:40 :: INFO     
+Epoch [123/200]
+20:48:45 :: INFO     
+Accuracy task 1: 0.9536, Accuracy task 2: 0.94155
+20:48:45 :: INFO     
+Epoch [124/200]
+20:49:50 :: INFO     
+Accuracy task 1: 0.9532, Accuracy task 2: 0.9407
+20:49:50 :: INFO     
+Epoch [125/200]
+20:50:55 :: INFO     
+Accuracy task 1: 0.953, Accuracy task 2: 0.9391
+20:50:55 :: INFO     
+Epoch [126/200]
+20:52:01 :: INFO     
+Accuracy task 1: 0.9517, Accuracy task 2: 0.94325
+20:52:01 :: INFO     
+Epoch [127/200]
+20:53:06 :: INFO     
+Accuracy task 1: 0.95375, Accuracy task 2: 0.94275
+20:53:06 :: INFO     
+Score improved from 0.947975 to 0.94825. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+20:53:06 :: INFO     
+Epoch [128/200]
+20:54:11 :: INFO     
+Accuracy task 1: 0.954, Accuracy task 2: 0.94075
+20:54:11 :: INFO     
+Epoch [129/200]
+20:55:16 :: INFO     
+Accuracy task 1: 0.95235, Accuracy task 2: 0.94055
+20:55:16 :: INFO     
+Epoch [130/200]
+20:56:20 :: INFO     
+Accuracy task 1: 0.95325, Accuracy task 2: 0.9416
+20:56:20 :: INFO     
+Epoch [131/200]
+20:57:25 :: INFO     
+Accuracy task 1: 0.95245, Accuracy task 2: 0.94035
+20:57:25 :: INFO     
+Epoch [132/200]
+20:58:29 :: INFO     
+Accuracy task 1: 0.9539, Accuracy task 2: 0.9405
+20:58:29 :: INFO     
+Epoch [133/200]
+20:59:34 :: INFO     
+Accuracy task 1: 0.9511, Accuracy task 2: 0.94035
+20:59:34 :: INFO     
+Epoch [134/200]
+21:00:38 :: INFO     
+Accuracy task 1: 0.95345, Accuracy task 2: 0.9432
+21:00:38 :: INFO     
+Score improved from 0.94825 to 0.9483250000000001. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+21:00:38 :: INFO     
+Epoch [135/200]
+21:01:43 :: INFO     
+Accuracy task 1: 0.9517, Accuracy task 2: 0.94075
+21:01:43 :: INFO     
+Epoch [136/200]
+21:02:47 :: INFO     
+Accuracy task 1: 0.95235, Accuracy task 2: 0.9427
+21:02:47 :: INFO     
+Epoch [137/200]
+21:03:52 :: INFO     
+Accuracy task 1: 0.953, Accuracy task 2: 0.9414
+21:03:52 :: INFO     
+Epoch [138/200]
+21:04:56 :: INFO     
+Accuracy task 1: 0.95145, Accuracy task 2: 0.9416
+21:04:56 :: INFO     
+Epoch [139/200]
+21:06:01 :: INFO     
+Accuracy task 1: 0.95115, Accuracy task 2: 0.94305
+21:06:01 :: INFO     
+Epoch [140/200]
+21:07:06 :: INFO     
+Accuracy task 1: 0.951, Accuracy task 2: 0.9437
+21:07:06 :: INFO     
+Epoch [141/200]
+21:08:12 :: INFO     
+Accuracy task 1: 0.9512, Accuracy task 2: 0.9412
+21:08:12 :: INFO     
+Epoch [142/200]
+21:09:17 :: INFO     
+Accuracy task 1: 0.95045, Accuracy task 2: 0.9431
+21:09:17 :: INFO     
+Epoch [143/200]
+21:10:21 :: INFO     
+Accuracy task 1: 0.9521, Accuracy task 2: 0.93995
+21:10:21 :: INFO     
+Epoch [144/200]
+21:11:26 :: INFO     
+Accuracy task 1: 0.95235, Accuracy task 2: 0.9423
+21:11:26 :: INFO     
+Epoch [145/200]
+21:12:30 :: INFO     
+Accuracy task 1: 0.94975, Accuracy task 2: 0.93945
+21:12:30 :: INFO     
+Epoch [146/200]
+21:13:35 :: INFO     
+Accuracy task 1: 0.95235, Accuracy task 2: 0.9408
+21:13:35 :: INFO     
+Epoch [147/200]
+21:14:39 :: INFO     
+Accuracy task 1: 0.9516, Accuracy task 2: 0.94165
+21:14:39 :: INFO     
+Epoch [148/200]
+21:15:44 :: INFO     
+Accuracy task 1: 0.95225, Accuracy task 2: 0.9403
+21:15:44 :: INFO     
+Epoch [149/200]
+21:16:48 :: INFO     
+Accuracy task 1: 0.9477, Accuracy task 2: 0.9402
+21:16:48 :: INFO     
+Epoch [150/200]
+21:17:52 :: INFO     
+Accuracy task 1: 0.95165, Accuracy task 2: 0.94235
+21:17:52 :: INFO     
+Epoch [151/200]
+21:18:57 :: INFO     
+Accuracy task 1: 0.9531, Accuracy task 2: 0.9421
+21:18:57 :: INFO     
+Epoch [152/200]
+21:20:01 :: INFO     
+Accuracy task 1: 0.9491, Accuracy task 2: 0.93535
+21:20:01 :: INFO     
+Epoch [153/200]
+21:21:06 :: INFO     
+Accuracy task 1: 0.9547, Accuracy task 2: 0.94415
+21:21:06 :: INFO     
+Score improved from 0.9483250000000001 to 0.949425. Saving model to outputs/dset=multi_mnist/method=rlw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+21:21:06 :: INFO     
+Epoch [154/200]
+21:22:10 :: INFO     
+Accuracy task 1: 0.9497, Accuracy task 2: 0.9364
+21:22:10 :: INFO     
+Epoch [155/200]
+21:23:15 :: INFO     
+Accuracy task 1: 0.9514, Accuracy task 2: 0.9393
+21:23:15 :: INFO     
+Epoch [156/200]
+21:24:19 :: INFO     
+Accuracy task 1: 0.9506, Accuracy task 2: 0.93645
+21:24:19 :: INFO     
+Epoch [157/200]
+21:25:24 :: INFO     
+Accuracy task 1: 0.94655, Accuracy task 2: 0.93715
+21:25:24 :: INFO     
+Epoch [158/200]
+21:26:28 :: INFO     
+Accuracy task 1: 0.954, Accuracy task 2: 0.9419
+21:26:28 :: INFO     
+Epoch [159/200]
+21:27:33 :: INFO     
+Accuracy task 1: 0.9543, Accuracy task 2: 0.94055
+21:27:33 :: INFO     
+Epoch [160/200]
+21:28:37 :: INFO     
+Accuracy task 1: 0.9503, Accuracy task 2: 0.93785
+21:28:37 :: INFO     
+Epoch [161/200]
+21:29:42 :: INFO     
+Accuracy task 1: 0.94965, Accuracy task 2: 0.9379
+21:29:42 :: INFO     
+Epoch [162/200]
+21:30:46 :: INFO     
+Accuracy task 1: 0.9519, Accuracy task 2: 0.9404
+21:30:46 :: INFO     
+Epoch [163/200]
+21:31:50 :: INFO     
+Accuracy task 1: 0.9532, Accuracy task 2: 0.94475
+21:31:50 :: INFO     
+Epoch [164/200]
+21:32:55 :: INFO     
+Accuracy task 1: 0.95165, Accuracy task 2: 0.94215
+21:32:55 :: INFO     
+Epoch [165/200]
+21:33:59 :: INFO     
+Accuracy task 1: 0.94665, Accuracy task 2: 0.9392
+21:33:59 :: INFO     
+Epoch [166/200]
+21:35:04 :: INFO     
+Accuracy task 1: 0.95005, Accuracy task 2: 0.94345
+21:35:04 :: INFO     
+Epoch [167/200]
+21:36:08 :: INFO     
+Accuracy task 1: 0.9544, Accuracy task 2: 0.94295
+21:36:08 :: INFO     
+Epoch [168/200]
+21:37:13 :: INFO     
+Accuracy task 1: 0.95235, Accuracy task 2: 0.9429
+21:37:13 :: INFO     
+Epoch [169/200]
+21:38:17 :: INFO     
+Accuracy task 1: 0.94745, Accuracy task 2: 0.94015
+21:38:17 :: INFO     
+Epoch [170/200]
+21:39:21 :: INFO     
+Accuracy task 1: 0.9517, Accuracy task 2: 0.9417
+21:39:21 :: INFO     
+Epoch [171/200]
+21:40:26 :: INFO     
+Accuracy task 1: 0.95345, Accuracy task 2: 0.9431
+21:40:26 :: INFO     
+Epoch [172/200]
+21:41:30 :: INFO     
+Accuracy task 1: 0.94865, Accuracy task 2: 0.93915
+21:41:30 :: INFO     
+Epoch [173/200]
+21:42:35 :: INFO     
+Accuracy task 1: 0.9519, Accuracy task 2: 0.93945
+21:42:35 :: INFO     
+Epoch [174/200]
+21:43:39 :: INFO     
+Accuracy task 1: 0.9522, Accuracy task 2: 0.94125
+21:43:39 :: INFO     
+Epoch [175/200]
+21:44:44 :: INFO     
+Accuracy task 1: 0.95255, Accuracy task 2: 0.9423
+21:44:44 :: INFO     
+Epoch [176/200]
+21:45:48 :: INFO     
+Accuracy task 1: 0.95265, Accuracy task 2: 0.94315
+21:45:48 :: INFO     
+Epoch [177/200]
+21:46:52 :: INFO     
+Accuracy task 1: 0.95055, Accuracy task 2: 0.94195
+21:46:52 :: INFO     
+Epoch [178/200]
+21:47:57 :: INFO     
+Accuracy task 1: 0.9508, Accuracy task 2: 0.9421
+21:47:57 :: INFO     
+Epoch [179/200]
+21:49:02 :: INFO     
+Accuracy task 1: 0.9524, Accuracy task 2: 0.94345
+21:49:02 :: INFO     
+Epoch [180/200]
+21:50:06 :: INFO     
+Accuracy task 1: 0.95275, Accuracy task 2: 0.9443
+21:50:06 :: INFO     
+Epoch [181/200]
+21:51:10 :: INFO     
+Accuracy task 1: 0.9538, Accuracy task 2: 0.94405
+21:51:10 :: INFO     
+Epoch [182/200]
+21:52:15 :: INFO     
+Accuracy task 1: 0.95125, Accuracy task 2: 0.9429
+21:52:15 :: INFO     
+Epoch [183/200]
+21:53:19 :: INFO     
+Accuracy task 1: 0.9535, Accuracy task 2: 0.94265
+21:53:19 :: INFO     
+Epoch [184/200]
+21:54:24 :: INFO     
+Accuracy task 1: 0.9527, Accuracy task 2: 0.944
+21:54:24 :: INFO     
+Epoch [185/200]
+21:55:28 :: INFO     
+Accuracy task 1: 0.95255, Accuracy task 2: 0.9444
+21:55:28 :: INFO     
+Epoch [186/200]
+21:56:33 :: INFO     
+Accuracy task 1: 0.95305, Accuracy task 2: 0.93895
+21:56:33 :: INFO     
+Epoch [187/200]
+21:57:37 :: INFO     
+Accuracy task 1: 0.9507, Accuracy task 2: 0.9403
+21:57:37 :: INFO     
+Epoch [188/200]
+21:58:41 :: INFO     
+Accuracy task 1: 0.95285, Accuracy task 2: 0.94035
+21:58:41 :: INFO     
+Epoch [189/200]
+21:59:46 :: INFO     
+Accuracy task 1: 0.95155, Accuracy task 2: 0.94335
+21:59:46 :: INFO     
+Epoch [190/200]
+22:00:50 :: INFO     
+Accuracy task 1: 0.9515, Accuracy task 2: 0.9437
+22:00:50 :: INFO     
+Epoch [191/200]
+22:01:55 :: INFO     
+Accuracy task 1: 0.95425, Accuracy task 2: 0.94415
+22:01:55 :: INFO     
+Epoch [192/200]
+22:02:59 :: INFO     
+Accuracy task 1: 0.9528, Accuracy task 2: 0.942
+22:02:59 :: INFO     
+Epoch [193/200]
+22:04:04 :: INFO     
+Accuracy task 1: 0.9533, Accuracy task 2: 0.94125
+22:04:04 :: INFO     
+Epoch [194/200]
+22:05:08 :: INFO     
+Accuracy task 1: 0.95235, Accuracy task 2: 0.93775
+22:05:08 :: INFO     
+Epoch [195/200]
+22:06:13 :: INFO     
+Accuracy task 1: 0.95345, Accuracy task 2: 0.9413
+22:06:13 :: INFO     
+Epoch [196/200]
+22:07:17 :: INFO     
+Accuracy task 1: 0.9525, Accuracy task 2: 0.9384
+22:07:17 :: INFO     
+Epoch [197/200]
+22:08:22 :: INFO     
+Accuracy task 1: 0.95225, Accuracy task 2: 0.94355
+22:08:22 :: INFO     
+Epoch [198/200]
+22:09:26 :: INFO     
+Accuracy task 1: 0.9525, Accuracy task 2: 0.94255
+22:09:26 :: INFO     
+Epoch [199/200]
+22:10:31 :: INFO     
+Accuracy task 1: 0.9505, Accuracy task 2: 0.93995

@@ -1,0 +1,828 @@
+17:20:32 :: INFO     
+==>>> total trainning batch number: 469
+17:20:32 :: INFO     
+==>>> total testing batch number: 79
+17:20:33 :: INFO     
+total param amount: 11223560
+17:20:33 :: INFO     
+Epoch [0/200]
+17:21:39 :: INFO     
+Accuracy task 1: 0.9052, Accuracy task 2: 0.8125
+17:21:39 :: INFO     
+Score improved from 0 to 0.85885. Saving model to outputs/dset=multi_fashion_and_mnist/method=si/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+17:21:39 :: INFO     
+Epoch [1/200]
+17:22:44 :: INFO     
+Accuracy task 1: 0.92615, Accuracy task 2: 0.82625
+17:22:44 :: INFO     
+Score improved from 0.85885 to 0.8762000000000001. Saving model to outputs/dset=multi_fashion_and_mnist/method=si/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+17:22:44 :: INFO     
+Epoch [2/200]
+17:23:49 :: INFO     
+Accuracy task 1: 0.95755, Accuracy task 2: 0.84495
+17:23:49 :: INFO     
+Score improved from 0.8762000000000001 to 0.90125. Saving model to outputs/dset=multi_fashion_and_mnist/method=si/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+17:23:49 :: INFO     
+Epoch [3/200]
+17:24:54 :: INFO     
+Accuracy task 1: 0.9562, Accuracy task 2: 0.8348
+17:24:54 :: INFO     
+Epoch [4/200]
+17:25:59 :: INFO     
+Accuracy task 1: 0.96725, Accuracy task 2: 0.8498
+17:25:59 :: INFO     
+Score improved from 0.90125 to 0.908525. Saving model to outputs/dset=multi_fashion_and_mnist/method=si/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+17:25:59 :: INFO     
+Epoch [5/200]
+17:27:04 :: INFO     
+Accuracy task 1: 0.95485, Accuracy task 2: 0.85565
+17:27:04 :: INFO     
+Epoch [6/200]
+17:28:09 :: INFO     
+Accuracy task 1: 0.96445, Accuracy task 2: 0.85685
+17:28:09 :: INFO     
+Score improved from 0.908525 to 0.91065. Saving model to outputs/dset=multi_fashion_and_mnist/method=si/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+17:28:10 :: INFO     
+Epoch [7/200]
+17:29:14 :: INFO     
+Accuracy task 1: 0.97065, Accuracy task 2: 0.8519
+17:29:14 :: INFO     
+Score improved from 0.91065 to 0.9112750000000001. Saving model to outputs/dset=multi_fashion_and_mnist/method=si/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+17:29:15 :: INFO     
+Epoch [8/200]
+17:30:20 :: INFO     
+Accuracy task 1: 0.96045, Accuracy task 2: 0.86255
+17:30:20 :: INFO     
+Score improved from 0.9112750000000001 to 0.9115. Saving model to outputs/dset=multi_fashion_and_mnist/method=si/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+17:30:20 :: INFO     
+Epoch [9/200]
+17:31:25 :: INFO     
+Accuracy task 1: 0.95935, Accuracy task 2: 0.86405
+17:31:25 :: INFO     
+Score improved from 0.9115 to 0.9117. Saving model to outputs/dset=multi_fashion_and_mnist/method=si/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+17:31:25 :: INFO     
+Epoch [10/200]
+17:32:30 :: INFO     
+Accuracy task 1: 0.9716, Accuracy task 2: 0.8604
+17:32:30 :: INFO     
+Score improved from 0.9117 to 0.916. Saving model to outputs/dset=multi_fashion_and_mnist/method=si/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+17:32:30 :: INFO     
+Epoch [11/200]
+17:33:35 :: INFO     
+Accuracy task 1: 0.9679, Accuracy task 2: 0.8512
+17:33:35 :: INFO     
+Epoch [12/200]
+17:34:40 :: INFO     
+Accuracy task 1: 0.97335, Accuracy task 2: 0.8649
+17:34:40 :: INFO     
+Score improved from 0.916 to 0.919125. Saving model to outputs/dset=multi_fashion_and_mnist/method=si/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+17:34:40 :: INFO     
+Epoch [13/200]
+17:35:45 :: INFO     
+Accuracy task 1: 0.97515, Accuracy task 2: 0.86005
+17:35:45 :: INFO     
+Epoch [14/200]
+17:36:50 :: INFO     
+Accuracy task 1: 0.97425, Accuracy task 2: 0.85735
+17:36:50 :: INFO     
+Epoch [15/200]
+17:37:55 :: INFO     
+Accuracy task 1: 0.97415, Accuracy task 2: 0.85865
+17:37:55 :: INFO     
+Epoch [16/200]
+17:39:00 :: INFO     
+Accuracy task 1: 0.97555, Accuracy task 2: 0.85245
+17:39:00 :: INFO     
+Epoch [17/200]
+17:40:04 :: INFO     
+Accuracy task 1: 0.9728, Accuracy task 2: 0.859
+17:40:04 :: INFO     
+Epoch [18/200]
+17:41:10 :: INFO     
+Accuracy task 1: 0.9754, Accuracy task 2: 0.85695
+17:41:10 :: INFO     
+Epoch [19/200]
+17:42:14 :: INFO     
+Accuracy task 1: 0.97535, Accuracy task 2: 0.8645
+17:42:14 :: INFO     
+Score improved from 0.919125 to 0.9199250000000001. Saving model to outputs/dset=multi_fashion_and_mnist/method=si/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=0.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=1
+17:42:14 :: INFO     
+Epoch [20/200]
+17:43:20 :: INFO     
+Accuracy task 1: 0.9754, Accuracy task 2: 0.8585
+17:43:20 :: INFO     
+Epoch [21/200]
+17:44:25 :: INFO     
+Accuracy task 1: 0.9709, Accuracy task 2: 0.8495
+17:44:25 :: INFO     
+Epoch [22/200]
+17:45:29 :: INFO     
+Accuracy task 1: 0.97585, Accuracy task 2: 0.85975
+17:45:29 :: INFO     
+Epoch [23/200]
+17:46:35 :: INFO     
+Accuracy task 1: 0.9721, Accuracy task 2: 0.86075
+17:46:35 :: INFO     
+Epoch [24/200]
+17:47:39 :: INFO     
+Accuracy task 1: 0.97395, Accuracy task 2: 0.8485
+17:47:39 :: INFO     
+Epoch [25/200]
+17:48:44 :: INFO     
+Accuracy task 1: 0.9759, Accuracy task 2: 0.85235
+17:48:44 :: INFO     
+Epoch [26/200]
+17:49:49 :: INFO     
+Accuracy task 1: 0.96995, Accuracy task 2: 0.8594
+17:49:49 :: INFO     
+Epoch [27/200]
+17:50:55 :: INFO     
+Accuracy task 1: 0.9767, Accuracy task 2: 0.85675
+17:50:55 :: INFO     
+Epoch [28/200]
+17:52:00 :: INFO     
+Accuracy task 1: 0.97335, Accuracy task 2: 0.85795
+17:52:00 :: INFO     
+Epoch [29/200]
+17:53:05 :: INFO     
+Accuracy task 1: 0.97605, Accuracy task 2: 0.84965
+17:53:05 :: INFO     
+Epoch [30/200]
+17:54:10 :: INFO     
+Accuracy task 1: 0.97475, Accuracy task 2: 0.8475
+17:54:10 :: INFO     
+Epoch [31/200]
+17:55:15 :: INFO     
+Accuracy task 1: 0.97465, Accuracy task 2: 0.8519
+17:55:15 :: INFO     
+Epoch [32/200]
+17:56:21 :: INFO     
+Accuracy task 1: 0.97095, Accuracy task 2: 0.84885
+17:56:21 :: INFO     
+Epoch [33/200]
+17:57:26 :: INFO     
+Accuracy task 1: 0.97385, Accuracy task 2: 0.8497
+17:57:26 :: INFO     
+Epoch [34/200]
+17:58:31 :: INFO     
+Accuracy task 1: 0.97555, Accuracy task 2: 0.8581
+17:58:31 :: INFO     
+Epoch [35/200]
+17:59:36 :: INFO     
+Accuracy task 1: 0.9763, Accuracy task 2: 0.8558
+17:59:36 :: INFO     
+Epoch [36/200]
+18:00:41 :: INFO     
+Accuracy task 1: 0.97655, Accuracy task 2: 0.85085
+18:00:41 :: INFO     
+Epoch [37/200]
+18:01:46 :: INFO     
+Accuracy task 1: 0.9729, Accuracy task 2: 0.85545
+18:01:46 :: INFO     
+Epoch [38/200]
+18:02:52 :: INFO     
+Accuracy task 1: 0.9772, Accuracy task 2: 0.8577
+18:02:52 :: INFO     
+Epoch [39/200]
+18:03:57 :: INFO     
+Accuracy task 1: 0.97255, Accuracy task 2: 0.85115
+18:03:57 :: INFO     
+Epoch [40/200]
+18:05:02 :: INFO     
+Accuracy task 1: 0.9757, Accuracy task 2: 0.8573
+18:05:02 :: INFO     
+Epoch [41/200]
+18:06:07 :: INFO     
+Accuracy task 1: 0.97595, Accuracy task 2: 0.8528
+18:06:07 :: INFO     
+Epoch [42/200]
+18:07:13 :: INFO     
+Accuracy task 1: 0.9761, Accuracy task 2: 0.8534
+18:07:13 :: INFO     
+Epoch [43/200]
+18:08:18 :: INFO     
+Accuracy task 1: 0.97575, Accuracy task 2: 0.85285
+18:08:18 :: INFO     
+Epoch [44/200]
+18:09:23 :: INFO     
+Accuracy task 1: 0.9743, Accuracy task 2: 0.8499
+18:09:23 :: INFO     
+Epoch [45/200]
+18:10:28 :: INFO     
+Accuracy task 1: 0.97555, Accuracy task 2: 0.85575
+18:10:28 :: INFO     
+Epoch [46/200]
+18:11:33 :: INFO     
+Accuracy task 1: 0.9763, Accuracy task 2: 0.84835
+18:11:33 :: INFO     
+Epoch [47/200]
+18:12:38 :: INFO     
+Accuracy task 1: 0.97695, Accuracy task 2: 0.84825
+18:12:38 :: INFO     
+Epoch [48/200]
+18:13:44 :: INFO     
+Accuracy task 1: 0.97495, Accuracy task 2: 0.84795
+18:13:44 :: INFO     
+Epoch [49/200]
+18:14:49 :: INFO     
+Accuracy task 1: 0.9749, Accuracy task 2: 0.84335
+18:14:49 :: INFO     
+Epoch [50/200]
+18:15:54 :: INFO     
+Accuracy task 1: 0.97115, Accuracy task 2: 0.85265
+18:15:54 :: INFO     
+Epoch [51/200]
+18:16:59 :: INFO     
+Accuracy task 1: 0.9745, Accuracy task 2: 0.85595
+18:16:59 :: INFO     
+Epoch [52/200]
+18:18:04 :: INFO     
+Accuracy task 1: 0.97465, Accuracy task 2: 0.84795
+18:18:04 :: INFO     
+Epoch [53/200]
+18:19:10 :: INFO     
+Accuracy task 1: 0.9748, Accuracy task 2: 0.8561
+18:19:10 :: INFO     
+Epoch [54/200]
+18:20:15 :: INFO     
+Accuracy task 1: 0.97505, Accuracy task 2: 0.85385
+18:20:15 :: INFO     
+Epoch [55/200]
+18:21:20 :: INFO     
+Accuracy task 1: 0.9749, Accuracy task 2: 0.8547
+18:21:20 :: INFO     
+Epoch [56/200]
+18:22:25 :: INFO     
+Accuracy task 1: 0.9779, Accuracy task 2: 0.85065
+18:22:25 :: INFO     
+Epoch [57/200]
+18:23:30 :: INFO     
+Accuracy task 1: 0.9756, Accuracy task 2: 0.85465
+18:23:30 :: INFO     
+Epoch [58/200]
+18:24:35 :: INFO     
+Accuracy task 1: 0.97465, Accuracy task 2: 0.85115
+18:24:35 :: INFO     
+Epoch [59/200]
+18:25:41 :: INFO     
+Accuracy task 1: 0.977, Accuracy task 2: 0.85415
+18:25:41 :: INFO     
+Epoch [60/200]
+18:26:46 :: INFO     
+Accuracy task 1: 0.97345, Accuracy task 2: 0.8517
+18:26:46 :: INFO     
+Epoch [61/200]
+18:27:51 :: INFO     
+Accuracy task 1: 0.97775, Accuracy task 2: 0.85535
+18:27:51 :: INFO     
+Epoch [62/200]
+18:28:56 :: INFO     
+Accuracy task 1: 0.97485, Accuracy task 2: 0.8534
+18:28:56 :: INFO     
+Epoch [63/200]
+18:30:01 :: INFO     
+Accuracy task 1: 0.9696, Accuracy task 2: 0.8459
+18:30:01 :: INFO     
+Epoch [64/200]
+18:31:06 :: INFO     
+Accuracy task 1: 0.9776, Accuracy task 2: 0.8501
+18:31:06 :: INFO     
+Epoch [65/200]
+18:32:12 :: INFO     
+Accuracy task 1: 0.97785, Accuracy task 2: 0.85615
+18:32:12 :: INFO     
+Epoch [66/200]
+18:33:17 :: INFO     
+Accuracy task 1: 0.9767, Accuracy task 2: 0.8485
+18:33:17 :: INFO     
+Epoch [67/200]
+18:34:22 :: INFO     
+Accuracy task 1: 0.97885, Accuracy task 2: 0.8553
+18:34:22 :: INFO     
+Epoch [68/200]
+18:35:27 :: INFO     
+Accuracy task 1: 0.97605, Accuracy task 2: 0.8522
+18:35:27 :: INFO     
+Epoch [69/200]
+18:36:32 :: INFO     
+Accuracy task 1: 0.9728, Accuracy task 2: 0.84915
+18:36:32 :: INFO     
+Epoch [70/200]
+18:37:38 :: INFO     
+Accuracy task 1: 0.97345, Accuracy task 2: 0.84635
+18:37:38 :: INFO     
+Epoch [71/200]
+18:38:43 :: INFO     
+Accuracy task 1: 0.9766, Accuracy task 2: 0.8526
+18:38:43 :: INFO     
+Epoch [72/200]
+18:39:48 :: INFO     
+Accuracy task 1: 0.97845, Accuracy task 2: 0.8532
+18:39:48 :: INFO     
+Epoch [73/200]
+18:40:53 :: INFO     
+Accuracy task 1: 0.97595, Accuracy task 2: 0.848
+18:40:53 :: INFO     
+Epoch [74/200]
+18:41:58 :: INFO     
+Accuracy task 1: 0.96705, Accuracy task 2: 0.84705
+18:41:58 :: INFO     
+Epoch [75/200]
+18:43:03 :: INFO     
+Accuracy task 1: 0.9711, Accuracy task 2: 0.84585
+18:43:03 :: INFO     
+Epoch [76/200]
+18:44:08 :: INFO     
+Accuracy task 1: 0.97585, Accuracy task 2: 0.84775
+18:44:08 :: INFO     
+Epoch [77/200]
+18:45:14 :: INFO     
+Accuracy task 1: 0.9726, Accuracy task 2: 0.8468
+18:45:14 :: INFO     
+Epoch [78/200]
+18:46:18 :: INFO     
+Accuracy task 1: 0.98035, Accuracy task 2: 0.8547
+18:46:18 :: INFO     
+Epoch [79/200]
+18:47:23 :: INFO     
+Accuracy task 1: 0.9787, Accuracy task 2: 0.8495
+18:47:23 :: INFO     
+Epoch [80/200]
+18:48:29 :: INFO     
+Accuracy task 1: 0.97495, Accuracy task 2: 0.8516
+18:48:29 :: INFO     
+Epoch [81/200]
+18:49:33 :: INFO     
+Accuracy task 1: 0.9781, Accuracy task 2: 0.8551
+18:49:33 :: INFO     
+Epoch [82/200]
+18:50:39 :: INFO     
+Accuracy task 1: 0.97535, Accuracy task 2: 0.8524
+18:50:39 :: INFO     
+Epoch [83/200]
+18:51:44 :: INFO     
+Accuracy task 1: 0.97825, Accuracy task 2: 0.8527
+18:51:44 :: INFO     
+Epoch [84/200]
+18:52:48 :: INFO     
+Accuracy task 1: 0.97705, Accuracy task 2: 0.85195
+18:52:48 :: INFO     
+Epoch [85/200]
+18:53:54 :: INFO     
+Accuracy task 1: 0.9772, Accuracy task 2: 0.85055
+18:53:54 :: INFO     
+Epoch [86/200]
+18:54:58 :: INFO     
+Accuracy task 1: 0.97465, Accuracy task 2: 0.8453
+18:54:58 :: INFO     
+Epoch [87/200]
+18:56:03 :: INFO     
+Accuracy task 1: 0.9765, Accuracy task 2: 0.8551
+18:56:03 :: INFO     
+Epoch [88/200]
+18:57:08 :: INFO     
+Accuracy task 1: 0.977, Accuracy task 2: 0.8522
+18:57:08 :: INFO     
+Epoch [89/200]
+18:58:13 :: INFO     
+Accuracy task 1: 0.9759, Accuracy task 2: 0.8479
+18:58:13 :: INFO     
+Epoch [90/200]
+18:59:18 :: INFO     
+Accuracy task 1: 0.97735, Accuracy task 2: 0.8454
+18:59:18 :: INFO     
+Epoch [91/200]
+19:00:23 :: INFO     
+Accuracy task 1: 0.9757, Accuracy task 2: 0.85215
+19:00:23 :: INFO     
+Epoch [92/200]
+19:01:28 :: INFO     
+Accuracy task 1: 0.9756, Accuracy task 2: 0.8518
+19:01:28 :: INFO     
+Epoch [93/200]
+19:02:33 :: INFO     
+Accuracy task 1: 0.973, Accuracy task 2: 0.8502
+19:02:33 :: INFO     
+Epoch [94/200]
+19:03:38 :: INFO     
+Accuracy task 1: 0.9782, Accuracy task 2: 0.84575
+19:03:38 :: INFO     
+Epoch [95/200]
+19:04:43 :: INFO     
+Accuracy task 1: 0.9765, Accuracy task 2: 0.85035
+19:04:43 :: INFO     
+Epoch [96/200]
+19:05:48 :: INFO     
+Accuracy task 1: 0.97685, Accuracy task 2: 0.8497
+19:05:48 :: INFO     
+Epoch [97/200]
+19:06:53 :: INFO     
+Accuracy task 1: 0.95845, Accuracy task 2: 0.8521
+19:06:53 :: INFO     
+Epoch [98/200]
+19:07:58 :: INFO     
+Accuracy task 1: 0.9755, Accuracy task 2: 0.84325
+19:07:58 :: INFO     
+Epoch [99/200]
+19:09:03 :: INFO     
+Accuracy task 1: 0.977, Accuracy task 2: 0.8477
+19:09:03 :: INFO     
+Epoch [100/200]
+19:10:08 :: INFO     
+Accuracy task 1: 0.9765, Accuracy task 2: 0.85045
+19:10:08 :: INFO     
+Epoch [101/200]
+19:11:13 :: INFO     
+Accuracy task 1: 0.9781, Accuracy task 2: 0.85055
+19:11:13 :: INFO     
+Epoch [102/200]
+19:12:18 :: INFO     
+Accuracy task 1: 0.9766, Accuracy task 2: 0.85065
+19:12:18 :: INFO     
+Epoch [103/200]
+19:13:23 :: INFO     
+Accuracy task 1: 0.97545, Accuracy task 2: 0.8518
+19:13:23 :: INFO     
+Epoch [104/200]
+19:14:28 :: INFO     
+Accuracy task 1: 0.97955, Accuracy task 2: 0.8477
+19:14:28 :: INFO     
+Epoch [105/200]
+19:15:33 :: INFO     
+Accuracy task 1: 0.97635, Accuracy task 2: 0.8578
+19:15:33 :: INFO     
+Epoch [106/200]
+19:16:38 :: INFO     
+Accuracy task 1: 0.9756, Accuracy task 2: 0.8483
+19:16:38 :: INFO     
+Epoch [107/200]
+19:17:43 :: INFO     
+Accuracy task 1: 0.97765, Accuracy task 2: 0.85045
+19:17:43 :: INFO     
+Epoch [108/200]
+19:18:48 :: INFO     
+Accuracy task 1: 0.97655, Accuracy task 2: 0.85115
+19:18:48 :: INFO     
+Epoch [109/200]
+19:19:53 :: INFO     
+Accuracy task 1: 0.9789, Accuracy task 2: 0.84425
+19:19:53 :: INFO     
+Epoch [110/200]
+19:20:58 :: INFO     
+Accuracy task 1: 0.97895, Accuracy task 2: 0.84625
+19:20:58 :: INFO     
+Epoch [111/200]
+19:22:03 :: INFO     
+Accuracy task 1: 0.97845, Accuracy task 2: 0.84415
+19:22:03 :: INFO     
+Epoch [112/200]
+19:23:08 :: INFO     
+Accuracy task 1: 0.9778, Accuracy task 2: 0.84635
+19:23:08 :: INFO     
+Epoch [113/200]
+19:24:13 :: INFO     
+Accuracy task 1: 0.97895, Accuracy task 2: 0.85235
+19:24:13 :: INFO     
+Epoch [114/200]
+19:25:18 :: INFO     
+Accuracy task 1: 0.97955, Accuracy task 2: 0.84635
+19:25:18 :: INFO     
+Epoch [115/200]
+19:26:23 :: INFO     
+Accuracy task 1: 0.97665, Accuracy task 2: 0.84945
+19:26:23 :: INFO     
+Epoch [116/200]
+19:27:28 :: INFO     
+Accuracy task 1: 0.9749, Accuracy task 2: 0.8514
+19:27:28 :: INFO     
+Epoch [117/200]
+19:28:33 :: INFO     
+Accuracy task 1: 0.9768, Accuracy task 2: 0.844
+19:28:33 :: INFO     
+Epoch [118/200]
+19:29:38 :: INFO     
+Accuracy task 1: 0.97645, Accuracy task 2: 0.8495
+19:29:38 :: INFO     
+Epoch [119/200]
+19:30:43 :: INFO     
+Accuracy task 1: 0.9771, Accuracy task 2: 0.85115
+19:30:43 :: INFO     
+Epoch [120/200]
+19:31:48 :: INFO     
+Accuracy task 1: 0.97395, Accuracy task 2: 0.85
+19:31:48 :: INFO     
+Epoch [121/200]
+19:32:53 :: INFO     
+Accuracy task 1: 0.97635, Accuracy task 2: 0.8505
+19:32:53 :: INFO     
+Epoch [122/200]
+19:33:57 :: INFO     
+Accuracy task 1: 0.97835, Accuracy task 2: 0.8485
+19:33:57 :: INFO     
+Epoch [123/200]
+19:35:03 :: INFO     
+Accuracy task 1: 0.9787, Accuracy task 2: 0.8527
+19:35:03 :: INFO     
+Epoch [124/200]
+19:36:07 :: INFO     
+Accuracy task 1: 0.9733, Accuracy task 2: 0.8481
+19:36:07 :: INFO     
+Epoch [125/200]
+19:37:12 :: INFO     
+Accuracy task 1: 0.97885, Accuracy task 2: 0.8532
+19:37:12 :: INFO     
+Epoch [126/200]
+19:38:17 :: INFO     
+Accuracy task 1: 0.9691, Accuracy task 2: 0.8508
+19:38:17 :: INFO     
+Epoch [127/200]
+19:39:22 :: INFO     
+Accuracy task 1: 0.97645, Accuracy task 2: 0.8512
+19:39:22 :: INFO     
+Epoch [128/200]
+19:40:27 :: INFO     
+Accuracy task 1: 0.979, Accuracy task 2: 0.85605
+19:40:27 :: INFO     
+Epoch [129/200]
+19:41:32 :: INFO     
+Accuracy task 1: 0.97795, Accuracy task 2: 0.8527
+19:41:32 :: INFO     
+Epoch [130/200]
+19:42:37 :: INFO     
+Accuracy task 1: 0.97335, Accuracy task 2: 0.8483
+19:42:37 :: INFO     
+Epoch [131/200]
+19:43:42 :: INFO     
+Accuracy task 1: 0.9744, Accuracy task 2: 0.8543
+19:43:42 :: INFO     
+Epoch [132/200]
+19:44:47 :: INFO     
+Accuracy task 1: 0.979, Accuracy task 2: 0.8538
+19:44:47 :: INFO     
+Epoch [133/200]
+19:45:52 :: INFO     
+Accuracy task 1: 0.9789, Accuracy task 2: 0.8512
+19:45:52 :: INFO     
+Epoch [134/200]
+19:46:57 :: INFO     
+Accuracy task 1: 0.979, Accuracy task 2: 0.85745
+19:46:57 :: INFO     
+Epoch [135/200]
+19:48:02 :: INFO     
+Accuracy task 1: 0.87605, Accuracy task 2: 0.73885
+19:48:02 :: INFO     
+Epoch [136/200]
+19:49:07 :: INFO     
+Accuracy task 1: 0.9269, Accuracy task 2: 0.79355
+19:49:07 :: INFO     
+Epoch [137/200]
+19:50:12 :: INFO     
+Accuracy task 1: 0.9472, Accuracy task 2: 0.80835
+19:50:12 :: INFO     
+Epoch [138/200]
+19:51:17 :: INFO     
+Accuracy task 1: 0.96175, Accuracy task 2: 0.81725
+19:51:17 :: INFO     
+Epoch [139/200]
+19:52:22 :: INFO     
+Accuracy task 1: 0.9706, Accuracy task 2: 0.8255
+19:52:22 :: INFO     
+Epoch [140/200]
+19:53:27 :: INFO     
+Accuracy task 1: 0.97505, Accuracy task 2: 0.8313
+19:53:27 :: INFO     
+Epoch [141/200]
+19:54:33 :: INFO     
+Accuracy task 1: 0.9757, Accuracy task 2: 0.83335
+19:54:33 :: INFO     
+Epoch [142/200]
+19:55:37 :: INFO     
+Accuracy task 1: 0.97875, Accuracy task 2: 0.83455
+19:55:37 :: INFO     
+Epoch [143/200]
+19:56:42 :: INFO     
+Accuracy task 1: 0.9795, Accuracy task 2: 0.8379
+19:56:42 :: INFO     
+Epoch [144/200]
+19:57:48 :: INFO     
+Accuracy task 1: 0.97925, Accuracy task 2: 0.83315
+19:57:48 :: INFO     
+Epoch [145/200]
+19:58:53 :: INFO     
+Accuracy task 1: 0.97705, Accuracy task 2: 0.837
+19:58:53 :: INFO     
+Epoch [146/200]
+19:59:58 :: INFO     
+Accuracy task 1: 0.97755, Accuracy task 2: 0.8399
+19:59:58 :: INFO     
+Epoch [147/200]
+20:01:03 :: INFO     
+Accuracy task 1: 0.88065, Accuracy task 2: 0.508
+20:01:03 :: INFO     
+Epoch [148/200]
+20:02:08 :: INFO     
+Accuracy task 1: 0.90515, Accuracy task 2: 0.65425
+20:02:08 :: INFO     
+Epoch [149/200]
+20:03:13 :: INFO     
+Accuracy task 1: 0.932, Accuracy task 2: 0.72605
+20:03:13 :: INFO     
+Epoch [150/200]
+20:04:18 :: INFO     
+Accuracy task 1: 0.94845, Accuracy task 2: 0.76165
+20:04:18 :: INFO     
+Epoch [151/200]
+20:05:23 :: INFO     
+Accuracy task 1: 0.9611, Accuracy task 2: 0.7811
+20:05:23 :: INFO     
+Epoch [152/200]
+20:06:28 :: INFO     
+Accuracy task 1: 0.97045, Accuracy task 2: 0.7987
+20:06:28 :: INFO     
+Epoch [153/200]
+20:07:33 :: INFO     
+Accuracy task 1: 0.97495, Accuracy task 2: 0.81705
+20:07:33 :: INFO     
+Epoch [154/200]
+20:08:38 :: INFO     
+Accuracy task 1: 0.978, Accuracy task 2: 0.81795
+20:08:38 :: INFO     
+Epoch [155/200]
+20:09:43 :: INFO     
+Accuracy task 1: 0.97905, Accuracy task 2: 0.8239
+20:09:43 :: INFO     
+Epoch [156/200]
+20:10:48 :: INFO     
+Accuracy task 1: 0.9794, Accuracy task 2: 0.83465
+20:10:48 :: INFO     
+Epoch [157/200]
+20:11:53 :: INFO     
+Accuracy task 1: 0.97935, Accuracy task 2: 0.8371
+20:11:53 :: INFO     
+Epoch [158/200]
+20:12:58 :: INFO     
+Accuracy task 1: 0.9785, Accuracy task 2: 0.83015
+20:12:58 :: INFO     
+Epoch [159/200]
+20:14:03 :: INFO     
+Accuracy task 1: 0.9776, Accuracy task 2: 0.8257
+20:14:03 :: INFO     
+Epoch [160/200]
+20:15:08 :: INFO     
+Accuracy task 1: 0.91955, Accuracy task 2: 0.56745
+20:15:08 :: INFO     
+Epoch [161/200]
+20:16:13 :: INFO     
+Accuracy task 1: 0.94115, Accuracy task 2: 0.66745
+20:16:13 :: INFO     
+Epoch [162/200]
+20:17:18 :: INFO     
+Accuracy task 1: 0.9555, Accuracy task 2: 0.7241
+20:17:18 :: INFO     
+Epoch [163/200]
+20:18:23 :: INFO     
+Accuracy task 1: 0.96875, Accuracy task 2: 0.783
+20:18:23 :: INFO     
+Epoch [164/200]
+20:19:28 :: INFO     
+Accuracy task 1: 0.9754, Accuracy task 2: 0.8047
+20:19:28 :: INFO     
+Epoch [165/200]
+20:20:33 :: INFO     
+Accuracy task 1: 0.9782, Accuracy task 2: 0.8058
+20:20:33 :: INFO     
+Epoch [166/200]
+20:21:38 :: INFO     
+Accuracy task 1: 0.9794, Accuracy task 2: 0.81405
+20:21:38 :: INFO     
+Epoch [167/200]
+20:22:43 :: INFO     
+Accuracy task 1: 0.97835, Accuracy task 2: 0.82355
+20:22:43 :: INFO     
+Epoch [168/200]
+20:23:48 :: INFO     
+Accuracy task 1: 0.979, Accuracy task 2: 0.81915
+20:23:48 :: INFO     
+Epoch [169/200]
+20:24:53 :: INFO     
+Accuracy task 1: 0.9574, Accuracy task 2: 0.6516
+20:24:53 :: INFO     
+Epoch [170/200]
+20:25:58 :: INFO     
+Accuracy task 1: 0.97325, Accuracy task 2: 0.7104
+20:25:58 :: INFO     
+Epoch [171/200]
+20:27:04 :: INFO     
+Accuracy task 1: 0.9781, Accuracy task 2: 0.75505
+20:27:04 :: INFO     
+Epoch [172/200]
+20:28:09 :: INFO     
+Accuracy task 1: 0.9801, Accuracy task 2: 0.7739
+20:28:09 :: INFO     
+Epoch [173/200]
+20:29:14 :: INFO     
+Accuracy task 1: 0.9791, Accuracy task 2: 0.78255
+20:29:14 :: INFO     
+Epoch [174/200]
+20:30:19 :: INFO     
+Accuracy task 1: 0.9802, Accuracy task 2: 0.775
+20:30:19 :: INFO     
+Epoch [175/200]
+20:31:24 :: INFO     
+Accuracy task 1: 0.9744, Accuracy task 2: 0.79115
+20:31:24 :: INFO     
+Epoch [176/200]
+20:32:29 :: INFO     
+Accuracy task 1: 0.97525, Accuracy task 2: 0.80715
+20:32:29 :: INFO     
+Epoch [177/200]
+20:33:34 :: INFO     
+Accuracy task 1: 0.97755, Accuracy task 2: 0.80985
+20:33:34 :: INFO     
+Epoch [178/200]
+20:34:39 :: INFO     
+Accuracy task 1: 0.9715, Accuracy task 2: 0.806
+20:34:39 :: INFO     
+Epoch [179/200]
+20:35:44 :: INFO     
+Accuracy task 1: 0.97695, Accuracy task 2: 0.82095
+20:35:44 :: INFO     
+Epoch [180/200]
+20:36:49 :: INFO     
+Accuracy task 1: 0.9766, Accuracy task 2: 0.8289
+20:36:49 :: INFO     
+Epoch [181/200]
+20:37:54 :: INFO     
+Accuracy task 1: 0.97785, Accuracy task 2: 0.82205
+20:37:54 :: INFO     
+Epoch [182/200]
+20:38:59 :: INFO     
+Accuracy task 1: 0.97625, Accuracy task 2: 0.8305
+20:38:59 :: INFO     
+Epoch [183/200]
+20:40:04 :: INFO     
+Accuracy task 1: 0.88435, Accuracy task 2: 0.5929
+20:40:04 :: INFO     
+Epoch [184/200]
+20:41:09 :: INFO     
+Accuracy task 1: 0.9221, Accuracy task 2: 0.73845
+20:41:09 :: INFO     
+Epoch [185/200]
+20:42:15 :: INFO     
+Accuracy task 1: 0.96735, Accuracy task 2: 0.7654
+20:42:15 :: INFO     
+Epoch [186/200]
+20:43:19 :: INFO     
+Accuracy task 1: 0.97365, Accuracy task 2: 0.7962
+20:43:19 :: INFO     
+Epoch [187/200]
+20:44:24 :: INFO     
+Accuracy task 1: 0.97735, Accuracy task 2: 0.80235
+20:44:24 :: INFO     
+Epoch [188/200]
+20:45:29 :: INFO     
+Accuracy task 1: 0.97905, Accuracy task 2: 0.8167
+20:45:29 :: INFO     
+Epoch [189/200]
+20:46:35 :: INFO     
+Accuracy task 1: 0.97925, Accuracy task 2: 0.80325
+20:46:35 :: INFO     
+Epoch [190/200]
+20:47:39 :: INFO     
+Accuracy task 1: 0.9787, Accuracy task 2: 0.8065
+20:47:39 :: INFO     
+Epoch [191/200]
+20:48:44 :: INFO     
+Accuracy task 1: 0.9792, Accuracy task 2: 0.81065
+20:48:44 :: INFO     
+Epoch [192/200]
+20:49:49 :: INFO     
+Accuracy task 1: 0.9791, Accuracy task 2: 0.8108
+20:49:49 :: INFO     
+Epoch [193/200]
+20:50:55 :: INFO     
+Accuracy task 1: 0.98, Accuracy task 2: 0.7115
+20:50:55 :: INFO     
+Epoch [194/200]
+20:51:59 :: INFO     
+Accuracy task 1: 0.9804, Accuracy task 2: 0.78105
+20:51:59 :: INFO     
+Epoch [195/200]
+20:53:04 :: INFO     
+Accuracy task 1: 0.97985, Accuracy task 2: 0.80765
+20:53:04 :: INFO     
+Epoch [196/200]
+20:54:10 :: INFO     
+Accuracy task 1: 0.9614, Accuracy task 2: 0.6042
+20:54:10 :: INFO     
+Epoch [197/200]
+20:55:15 :: INFO     
+Accuracy task 1: 0.97525, Accuracy task 2: 0.6937
+20:55:15 :: INFO     
+Epoch [198/200]
+20:56:19 :: INFO     
+Accuracy task 1: 0.9793, Accuracy task 2: 0.7329
+20:56:19 :: INFO     
+Epoch [199/200]
+20:57:24 :: INFO     
+Accuracy task 1: 0.9801, Accuracy task 2: 0.7574

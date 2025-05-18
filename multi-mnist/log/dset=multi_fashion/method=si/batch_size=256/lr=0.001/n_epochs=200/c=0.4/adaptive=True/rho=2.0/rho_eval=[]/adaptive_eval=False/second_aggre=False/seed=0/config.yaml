@@ -1,0 +1,13 @@
+adaptive: true
+adaptive_eval: false
+batch_size: 256
+c: 0.4
+dset: multi_fashion
+lr: 0.001
+method: si
+n_epochs: 200
+output_dir: outputs/dset=multi_fashion/method=si/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=2.0/rho_eval=[]/adaptive_eval=False/second_aggre=False/seed=0
+rho: 2.0
+rho_eval: []
+second_aggre: false
+seed: 0

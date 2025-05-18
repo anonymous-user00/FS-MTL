@@ -1,0 +1,12 @@
+adaptive: true
+adaptive_eval: false
+batch_size: 256
+c: 0.4
+dset: multi_fashion_and_mnist
+lr: 0.001
+method: uw
+n_epochs: 200
+output_dir: outputs/dset=multi_fashion_and_mnist/method=uw/batch_size=256/lr=0.001/n_epochs=200/c=0.4/adaptive=True/rho=2.0/rho_eval=[]/adaptive_eval=False/seed=0
+rho: 2.0
+rho_eval: []
+seed: 0
